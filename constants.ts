@@ -1,0 +1,98 @@
+
+import { Product } from './types';
+
+export const CATEGORIES = {
+  Meat: ['Beef', 'Mutton', 'Poultry', 'Pork'],
+  Dairy: ['Milk', 'Cheese', 'Yogurt', 'Butter'],
+};
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: 'beef-steak-01',
+    name: 'Prime Beef Steak',
+    category: 'Meat',
+    subcategory: 'Beef',
+    pricePerKg: 1500,
+    description: 'Tender and juicy prime beef steak, perfect for grilling or pan-searing. Sourced from grass-fed cattle in the Kenyan highlands.',
+    imageUrl: 'https://picsum.photos/seed/beefsteak/600/400',
+    isActive: true,
+    tags: ['beef', 'steak', 'grill', 'premium'],
+  },
+  {
+    id: 'mutton-chops-01',
+    name: 'Lamb Mutton Chops',
+    category: 'Meat',
+    subcategory: 'Mutton',
+    pricePerKg: 1350,
+    description: 'Flavorful and tender lamb chops, ideal for curries, stews, or roasting. A local favorite.',
+    imageUrl: 'https://picsum.photos/seed/muttonchops/600/400',
+    isActive: true,
+    tags: ['mutton', 'lamb', 'chops', 'curry'],
+  },
+  {
+    id: 'chicken-breast-01',
+    name: 'Free-Range Chicken Breast',
+    category: 'Meat',
+    subcategory: 'Poultry',
+    pricePerKg: 950,
+    description: 'Skinless, boneless chicken breast from free-range birds. Lean, healthy, and versatile for any dish.',
+    imageUrl: 'https://picsum.photos/seed/chickenbreast/600/400',
+    isActive: true,
+    tags: ['chicken', 'poultry', 'lean', 'healthy'],
+  },
+  {
+    id: 'pork-ribs-01',
+    name: 'Smoky Pork Ribs',
+    category: 'Meat',
+    subcategory: 'Pork',
+    pricePerKg: 1100,
+    description: 'A full rack of pork ribs, ready for your favorite marinade and a slow cook. Perfect for a weekend BBQ.',
+    imageUrl: 'https://picsum.photos/seed/porkribs/600/400',
+    isActive: true,
+    tags: ['pork', 'ribs', 'bbq', 'slow-cook'],
+  },
+  {
+    id: 'fresh-milk-01',
+    name: 'Farm Fresh Milk',
+    category: 'Dairy',
+    subcategory: 'Milk',
+    pricePerKg: 120, // Price per Litre
+    description: 'Creamy and wholesome pasteurized fresh milk from local dairy farms. Sold per litre.',
+    imageUrl: 'https://picsum.photos/seed/freshmilk/600/400',
+    isActive: true,
+    tags: ['milk', 'dairy', 'fresh', 'local'],
+  },
+  {
+    id: 'cheddar-cheese-01',
+    name: 'Aged Cheddar Cheese',
+    category: 'Dairy',
+    subcategory: 'Cheese',
+    pricePerKg: 2200,
+    description: 'A sharp and tangy aged cheddar, perfect for sandwiches, platters, or cooking. Made with 100% Kenyan milk.',
+    imageUrl: 'https://picsum.photos/seed/cheddar/600/400',
+    isActive: true,
+    tags: ['cheese', 'cheddar', 'aged', 'dairy'],
+  },
+   {
+    id: 'yogurt-plain-01',
+    name: 'Natural Plain Yogurt',
+    category: 'Dairy',
+    subcategory: 'Yogurt',
+    pricePerKg: 450, // Price per Kg tub
+    description: 'Thick and creamy natural yogurt with live cultures. No added sugar. Great for breakfast or as a cooking ingredient.',
+    imageUrl: 'https://picsum.photos/seed/yogurt/600/400',
+    isActive: true,
+    tags: ['yogurt', 'dairy', 'natural', 'probiotic'],
+  },
+  {
+    id: 'butter-salted-01',
+    name: 'Salted Butter Block',
+    category: 'Dairy',
+    subcategory: 'Butter',
+    pricePerKg: 900,
+    description: 'Rich and creamy salted butter, churned from fresh Kenyan cream. Perfect for baking, cooking, or spreading.',
+    imageUrl: 'https://picsum.photos/seed/butter/600/400',
+    isActive: true,
+    tags: ['butter', 'dairy', 'salted', 'baking'],
+  },
+];
